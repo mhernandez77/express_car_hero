@@ -1,0 +1,32 @@
+{
+  "name": "express_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "build": "npm install",
+    "start": "node http_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhernandez77/express_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhernandez77/express_project/issues"
+  },
+  "homepage": "https://github.com/mhernandez77/express_project#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
